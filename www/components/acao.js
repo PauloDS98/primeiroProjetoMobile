@@ -14,3 +14,10 @@ $(document).on("click","#diminuir", function(){
   var resultadoDiminuir = primeiroValor - segundoValor;
   $("#resultado").val(resultadoDiminuir);
 })
+
+$(document).on("click","#multiplicar", function(){
+  primeiroValor = $("#valor1").val();
+  segundoValor = $("#valor2").val();
+  var resultadoMultiplicar = primeiroValor * segundoValor;
+  $("#resultado").val(resultadoMultiplicar);
+})
