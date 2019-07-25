@@ -24,3 +24,9 @@ $(document).on("click","#multiplicar", function(){
   var resultadoMultiplicar = primeiroValor * segundoValor;
   $("#resultado").val(resultadoMultiplicar);
 })
+
+//função diminuir
+$(document).on("click","#dividir", function(){
+  var resultadoDividir = primeiroValor / segundoValor;
+  $("#resultado").val(resultadoDividir);
+})

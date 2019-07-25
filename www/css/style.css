@@ -3,3 +3,7 @@
 font-family: fantasy;
 text-align: center;
 }
+
+body{
+  background: linear-gradient(to bottom, #ccffcc 0%, #ffff00 100%);
+}
